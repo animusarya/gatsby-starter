@@ -7,7 +7,10 @@
   "dependencies": {
     "Package": "0.0.1",
     "bootstrap": "^4.3.1",
+    "build": "^0.1.4",
+    "bulma": "^0.7.4",
     "contentful": "^7.3.0",
+    "css": "^2.2.4",
     "develop": "^1.0.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "gatsby": "^2.1.34",
@@ -44,7 +47,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "css-build": "node-sass --omit-source-map-url src/utils/bulma.scss src/utils/bulma.css"
   },
   "repository": {
     "type": "git",
@@ -60,6 +64,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.11.0",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "node-sass": "^4.11.0"
   }
 }

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Quicksand:400,700');
+
+$black: #000000;
+$white: #ffffff;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Rubik', sans-serif;
+$family-secondary: 'Quicksand', sans-serif;
+$section-padding: 1.5rem 1.5rem;
+$body-size: 14px;
+$text: $black;
+$link: $black;
+$panel-item-border: 0;
+$panel-block-color: #fff;
+$panel-icon-color: #fff;
+$panel-block-active-color: #ff2d55;
+$panel-block-active-icon-color: #ff2d55;
+$panel-block-hover-background-color: transparent;
+$button-color: $white;
+$button-hover-color: $white;
+$button-background-color: $black;
+$button-disabled-background-color: $black;
+
+@import '../../node_modules/bulma/bulma.sass';
