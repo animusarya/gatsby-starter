@@ -8,7 +8,7 @@ const Container = styled.div`
 
 const FirstSection = () => (
   <Container className="section">
-    <h1 className="is-size-1 has-text-primary">Hello am gatsby starter </h1>
+    <h1 className="is-size-3 has-text-primary">Hello am gatsby starter </h1>
     <a className="button is-medium">Search Events</a>
   </Container>
 );

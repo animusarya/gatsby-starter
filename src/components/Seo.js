@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
+import '../utils/bulma.css';
 
 import config from '../utils/config';
 
@@ -42,6 +43,7 @@ const Seo = ({ title, description, url, image }) => {
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta property="fb:app_id" content={config.fbAppID} />
+
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
